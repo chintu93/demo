@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1619431657,,"wq!"
+|2,0,1619434151,,"wq!"
 :q
 |2,0,1619431407,,"q"
 
@@ -54,32 +54,50 @@
 |3,0,9,1,1,0,1619429934,"                                          run: echo \"hello world\""
 
 # File marks:
-'0  26  20  ~/.github/workflows/test.yml
-|4,48,26,20,1619431657,"~/.github/workflows/test.yml"
-'1  1  0  ~/.github/workflows/te8
-|4,49,1,0,1619431407,"~/.github/workflows/te8"
-'2  18  22  ~/.github/workflows/test.yml
-|4,50,18,22,1619431213,"~/.github/workflows/test.yml"
+'0  12  56  ~/.github/workflows/actions.yml
+|4,48,12,56,1619434151,"~/.github/workflows/actions.yml"
+'1  26  20  ~/.github/workflows/test.yml
+|4,49,26,20,1619431657,"~/.github/workflows/test.yml"
+'2  1  0  ~/.github/workflows/te8
+|4,50,1,0,1619431407,"~/.github/workflows/te8"
 '3  18  22  ~/.github/workflows/test.yml
 |4,51,18,22,1619431213,"~/.github/workflows/test.yml"
-'4  13  17  ~/.github/workflows/test.yml
-|4,52,13,17,1619430034,"~/.github/workflows/test.yml"
+'4  18  22  ~/.github/workflows/test.yml
+|4,52,18,22,1619431213,"~/.github/workflows/test.yml"
 '5  13  17  ~/.github/workflows/test.yml
 |4,53,13,17,1619430034,"~/.github/workflows/test.yml"
 '6  13  17  ~/.github/workflows/test.yml
 |4,54,13,17,1619430034,"~/.github/workflows/test.yml"
 '7  13  17  ~/.github/workflows/test.yml
 |4,55,13,17,1619430034,"~/.github/workflows/test.yml"
+'8  13  17  ~/.github/workflows/test.yml
+|4,56,13,17,1619430034,"~/.github/workflows/test.yml"
 
 # Jumplist (newest first):
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
 -'  26  20  ~/.github/workflows/test.yml
 |4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  18  22  ~/.github/workflows/test.yml
+|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
 -'  18  22  ~/.github/workflows/test.yml
 |4,39,18,22,1619431410,"~/.github/workflows/test.yml"
 -'  1  0  ~/.github/workflows/te8
 |4,39,1,0,1619431407,"~/.github/workflows/te8"
 -'  1  0  ~/.github/workflows/te8
 |4,39,1,0,1619431407,"~/.github/workflows/te8"
+-'  1  0  ~/.github/workflows/te8
+|4,39,1,0,1619431407,"~/.github/workflows/te8"
+-'  1  0  ~/.github/workflows/te8
+|4,39,1,0,1619431407,"~/.github/workflows/te8"
+-'  18  22  ~/.github/workflows/test.yml
+|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
+-'  18  22  ~/.github/workflows/test.yml
+|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
 -'  18  22  ~/.github/workflows/test.yml
 |4,39,18,22,1619431213,"~/.github/workflows/test.yml"
 -'  18  22  ~/.github/workflows/test.yml
@@ -91,9 +109,29 @@
 -'  13  17  ~/.github/workflows/test.yml
 |4,39,13,17,1619431024,"~/.github/workflows/test.yml"
 -'  13  17  ~/.github/workflows/test.yml
+|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
+-'  13  17  ~/.github/workflows/test.yml
+|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
+-'  13  17  ~/.github/workflows/test.yml
+|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
+-'  13  17  ~/.github/workflows/test.yml
 |4,39,13,17,1619430034,"~/.github/workflows/test.yml"
 -'  13  17  ~/.github/workflows/test.yml
 |4,39,13,17,1619430034,"~/.github/workflows/test.yml"
+-'  13  17  ~/.github/workflows/test.yml
+|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
+-'  13  17  ~/.github/workflows/test.yml
+|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
+-'  1  0  ~/.github/workflows/test.yml
+|4,39,1,0,1619429904,"~/.github/workflows/test.yml"
+-'  1  0  ~/.github/workflows/test.yml
+|4,39,1,0,1619429904,"~/.github/workflows/test.yml"
+-'  1  0  ~/.github/workflows/test.yml
+|4,39,1,0,1619429904,"~/.github/workflows/test.yml"
+-'  1  0  ~/.github/workflows/test.yml
+|4,39,1,0,1619429904,"~/.github/workflows/test.yml"
+-'  1  0  ~/.github/workflows/test.yml
+|4,39,1,0,1619429904,"~/.github/workflows/test.yml"
 -'  1  0  ~/.github/workflows/test.yml
 |4,39,1,0,1619429904,"~/.github/workflows/test.yml"
 -'  1  0  ~/.github/workflows/test.yml
@@ -106,6 +144,14 @@
 |4,39,1,0,1619429904,"~/.github/workflows/test.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.github/workflows/actions.yml
+	*	1619434148	0
+	"	12	56
+	^	12	57
+	.	12	56
+	+	1	22
+	+	12	56
 
 > ~/.github/workflows/test.yml
 	*	1619431655	0
