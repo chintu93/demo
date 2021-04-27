@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1619508028,,"wq!"
+|2,0,1619519435,,"wq!"
 :q
 |2,0,1619431407,,"q"
 
@@ -25,67 +25,98 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	me: shell commands
-|3,1,1,1,1,0,1619429935,"me: shell commands"
+"1	LINE	0
+	name: env_role
+|3,0,1,1,1,0,1619518748,"name: env_role"
 "2	LINE	0
-	on: [push]
-|3,0,2,1,1,0,1619429935,"on: [push]"
+	on: 
+|3,0,2,1,1,0,1619518747,"on: "
 "3	LINE	0
-	
-|3,0,3,1,1,0,1619429935,""
+	  branches: [push]
+|3,0,3,1,1,0,1619518747,"  branches: [push]"
 "4	LINE	0
-	jobs:
-|3,0,4,1,1,0,1619429935,"jobs:"
+	env: 
+|3,0,4,1,1,0,1619518747,"env: "
 "5	LINE	0
-	          run-shell-command: 
-|3,0,5,1,1,0,1619429935,"          run-shell-command: "
+	  env_1: aailable to all jobs
+|3,0,5,1,1,0,1619518747,"  env_1: aailable to all jobs"
 "6	LINE	0
-	              runs-on: ubuntu-latest
-|3,0,6,1,1,0,1619429935,"              runs-on: ubuntu-latest"
+	jobs: 
+|3,0,6,1,1,0,1619518747,"jobs: "
 "7	LINE	0
-	                  steps:
-|3,0,7,1,1,0,1619429935,"                  steps:"
+	  new-issue:
+|3,0,7,1,1,0,1619518747,"  new-issue:"
 "8	LINE	0
-	                                - name: echo a string
-|3,0,8,1,1,0,1619429935,"                                - name: echo a string"
+	          echo "en_var3: ${env_3}"
+|3,0,8,1,1,0,1619518747,"          echo \"en_var3: ${env_3}\""
 "9	LINE	0
-	                                          run: echo "hello world"
-|3,0,9,1,1,0,1619429934,"                                          run: echo \"hello world\""
+	          echo "en_var2: ${env_2}"
+|3,0,9,1,1,0,1619518747,"          echo \"en_var2: ${env_2}\""
+""-	CHAR	0
+	n
+|3,1,36,0,1,0,1619518753,"n"
 
 # File marks:
-'0  7  6  ~/.github/workflows/env.yml
-|4,48,7,6,1619508028,"~/.github/workflows/env.yml"
-'1  34  33  ~/.github/workflows/env.yml
-|4,49,34,33,1619501850,"~/.github/workflows/env.yml"
-'2  17  33  ~/.github/workflows/env.yml
-|4,50,17,33,1619501850,"~/.github/workflows/env.yml"
-'3  12  56  ~/.github/workflows/actions.yml
-|4,51,12,56,1619434151,"~/.github/workflows/actions.yml"
-'4  26  20  ~/.github/workflows/test.yml
-|4,52,26,20,1619431657,"~/.github/workflows/test.yml"
-'5  1  0  ~/.github/workflows/te8
-|4,53,1,0,1619431407,"~/.github/workflows/te8"
-'6  18  22  ~/.github/workflows/test.yml
-|4,54,18,22,1619431213,"~/.github/workflows/test.yml"
-'7  18  22  ~/.github/workflows/test.yml
-|4,55,18,22,1619431213,"~/.github/workflows/test.yml"
-'8  13  17  ~/.github/workflows/test.yml
-|4,56,13,17,1619430034,"~/.github/workflows/test.yml"
-'9  13  17  ~/.github/workflows/test.yml
-|4,57,13,17,1619430034,"~/.github/workflows/test.yml"
+'0  25  17  ~/.github/workflows/env.yml
+|4,48,25,17,1619519435,"~/.github/workflows/env.yml"
+'1  71  33  ~/.github/workflows/env.yml
+|4,49,71,33,1619518769,"~/.github/workflows/env.yml"
+'2  54  33  ~/.github/workflows/env.yml
+|4,50,54,33,1619518769,"~/.github/workflows/env.yml"
+'3  1  8  ~/.github/workflows/env.yml
+|4,51,1,8,1619508920,"~/.github/workflows/env.yml"
+'4  8  8  ~/.github/workflows/env.yml
+|4,52,8,8,1619508920,"~/.github/workflows/env.yml"
+'5  1  8  ~/.github/workflows/env.yml
+|4,53,1,8,1619508920,"~/.github/workflows/env.yml"
+'6  8  8  ~/.github/workflows/env.yml
+|4,54,8,8,1619508920,"~/.github/workflows/env.yml"
+'7  1  6  ~/.github/workflows/env.yml
+|4,55,1,6,1619508028,"~/.github/workflows/env.yml"
+'8  1  6  ~/.github/workflows/env.yml
+|4,56,1,6,1619508028,"~/.github/workflows/env.yml"
+'9  7  6  ~/.github/workflows/env.yml
+|4,57,7,6,1619508028,"~/.github/workflows/env.yml"
 
 # Jumplist (newest first):
+-'  25  17  ~/.github/workflows/env.yml
+|4,39,25,17,1619519435,"~/.github/workflows/env.yml"
+-'  71  33  ~/.github/workflows/env.yml
+|4,39,71,33,1619518807,"~/.github/workflows/env.yml"
+-'  54  33  ~/.github/workflows/env.yml
+|4,39,54,33,1619518769,"~/.github/workflows/env.yml"
+-'  1  8  ~/.github/workflows/env.yml
+|4,39,1,8,1619518706,"~/.github/workflows/env.yml"
+-'  1  8  ~/.github/workflows/env.yml
+|4,39,1,8,1619518706,"~/.github/workflows/env.yml"
+-'  8  8  ~/.github/workflows/env.yml
+|4,39,8,8,1619508920,"~/.github/workflows/env.yml"
+-'  8  8  ~/.github/workflows/env.yml
+|4,39,8,8,1619508920,"~/.github/workflows/env.yml"
+-'  7  6  ~/.github/workflows/env.yml
+|4,39,7,6,1619508912,"~/.github/workflows/env.yml"
+-'  7  6  ~/.github/workflows/env.yml
+|4,39,7,6,1619508912,"~/.github/workflows/env.yml"
 -'  7  6  ~/.github/workflows/env.yml
 |4,39,7,6,1619508028,"~/.github/workflows/env.yml"
+-'  51  33  ~/.github/workflows/env.yml
+|4,39,51,33,1619507856,"~/.github/workflows/env.yml"
 -'  34  33  ~/.github/workflows/env.yml
 |4,39,34,33,1619507856,"~/.github/workflows/env.yml"
+-'  34  33  ~/.github/workflows/env.yml
+|4,39,34,33,1619507856,"~/.github/workflows/env.yml"
+-'  34  33  ~/.github/workflows/env.yml
+|4,39,34,33,1619501850,"~/.github/workflows/env.yml"
+-'  17  33  ~/.github/workflows/env.yml
+|4,39,17,33,1619501850,"~/.github/workflows/env.yml"
 -'  17  33  ~/.github/workflows/env.yml
 |4,39,17,33,1619501850,"~/.github/workflows/env.yml"
 -'  1  0  ~/.github/workflows/env.yml
 |4,39,1,0,1619499193,"~/.github/workflows/env.yml"
 -'  1  0  ~/.github/workflows/env.yml
 |4,39,1,0,1619499193,"~/.github/workflows/env.yml"
+-'  1  0  ~/.github/workflows/env.yml
+|4,39,1,0,1619499193,"~/.github/workflows/env.yml"
 -'  12  56  ~/.github/workflows/actions.yml
 |4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
 -'  12  56  ~/.github/workflows/actions.yml
@@ -94,6 +125,118 @@
 |4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
 -'  12  56  ~/.github/workflows/actions.yml
 |4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  12  56  ~/.github/workflows/actions.yml
+|4,39,12,56,1619434151,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
+-'  1  0  ~/.github/workflows/actions.yml
+|4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
 -'  1  0  ~/.github/workflows/actions.yml
 |4,39,1,0,1619433309,"~/.github/workflows/actions.yml"
 -'  1  0  ~/.github/workflows/actions.yml
@@ -118,205 +261,124 @@
 |4,39,26,20,1619431657,"~/.github/workflows/test.yml"
 -'  26  20  ~/.github/workflows/test.yml
 |4,39,26,20,1619431657,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431410,"~/.github/workflows/test.yml"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  1  0  ~/.github/workflows/te8
-|4,39,1,0,1619431407,"~/.github/workflows/te8"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  18  22  ~/.github/workflows/test.yml
-|4,39,18,22,1619431213,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619431024,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
--'  13  17  ~/.github/workflows/test.yml
-|4,39,13,17,1619430034,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
+-'  26  20  ~/.github/workflows/test.yml
+|4,39,26,20,1619431657,"~/.github/workflows/test.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/.github/workflows/env.yml
-	*	1619508027	0
-	"	7	6
-	^	7	6
-	.	7	5
-	+	33	25
-	+	26	21
-	+	28	4
-	+	30	35
-	+	32	7
-	+	27	5
-	+	35	33
-	+	31	7
-	+	30	11
-	+	31	9
-	+	36	25
-	+	40	34
-	+	38	0
+	*	1619519433	0
+	"	25	17
+	^	25	18
+	.	25	17
+	+	1	25
+	+	1	21
+	+	1	4
+	+	1	35
+	+	1	7
+	+	1	5
+	+	1	33
+	+	1	7
+	+	1	11
+	+	1	9
+	+	1	25
+	+	1	34
+	+	1	0
+	+	1	14
+	+	1	28
+	+	1	10
+	+	1	0
+	+	1	29
+	+	1	46
+	+	1	54
+	+	1	55
+	+	1	33
+	+	1	10
+	+	1	33
+	+	1	2
+	+	1	1
+	+	1	12
+	+	1	18
+	+	1	13
+	+	1	5
+	+	1	14
+	+	2	10
+	+	3	5
+	+	4	30
+	+	5	6
+	+	6	12
+	+	7	30
+	+	8	10
+	+	26	41
+	+	27	14
+	+	28	31
+	+	29	78
+	+	30	72
+	+	31	53
+	+	32	19
+	+	33	69
+	+	34	163
+	+	35	16
+	+	36	24
+	+	37	10
+	+	38	26
+	+	39	8
+	+	40	36
+	+	41	11
+	+	42	31
+	+	43	12
+	+	44	38
 	+	45	14
-	+	46	28
-	+	49	10
-	+	50	0
-	+	49	29
-	+	50	46
-	+	52	54
-	+	52	55
-	+	51	55
-	+	58	33
+	+	46	34
+	+	47	34
+	+	48	34
+	+	49	25
+	+	50	14
+	+	51	34
+	+	52	34
+	+	53	34
+	+	54	15
+	+	55	26
 	+	56	10
-	+	57	33
-	+	39	33
-	+	34	33
-	+	7	2
-	+	24	1
-	+	7	12
-	+	8	18
-	+	23	13
-	+	7	5
+	+	57	31
+	+	58	14
+	+	59	30
+	+	60	51
+	+	61	48
+	+	62	50
+	+	63	46
+	+	64	56
+	+	65	56
+	+	66	54
+	+	67	42
+	+	68	42
+	+	69	34
+	+	70	34
+	+	71	33
+	+	9	34
+	+	14	118
+	+	15	56
+	+	16	47
+	+	15	40
+	+	18	52
+	+	19	18
+	+	25	17
 
 > ~/.github/workflows/actions.yml
 	*	1619434148	0

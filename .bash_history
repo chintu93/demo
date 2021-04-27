@@ -67,3 +67,36 @@ git push
 git log -oneline
 git reflog
 git status
+clear
+cd .github
+ls
+cd workflows
+ls
+rm -r actions.yml
+vim env.yml
+cd ..
+git add .
+git commit -m 'f'
+git push
+git push --help
+git push orrigin master
+git push origin master
+git status
+git reflog
+git push -f origin master
+clear
+cd .github
+cd workflows
+ls
+vim env.yml
+cd ..
+git add .
+git commint -m 'create issue'
+git commit -m 'create issue'
+git push
+git push -f
+clear
+cd .github
+cd workflow
+cd workflows
+vi env.yml
